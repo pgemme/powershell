@@ -1,3 +1,4 @@
+<code></code><code>PowerShell
 <#
 .Synopsis
    Searches through all of the Windows Event Logs (not just the Application, System, and Security) over a period of time.
@@ -72,3 +73,4 @@ if([string]::IsNullOrEmpty($cred)){
     $cred = Get-credential
 }
 Get-All-WinEvents -password $cred
+</code><code></code>
